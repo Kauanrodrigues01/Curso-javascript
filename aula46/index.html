@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="caixaNovoFuncionalidades" class="caixa">
+            <div id="caixaNovoCurso" class="caixaFuncionalidades">
+                <label for="">Nome do curso</label>
+                <input type="text" name="nomeCurso" id="nomeCurso">
+                <button id="btnAdicionarAntes" style="margin-bottom: 10px;">Adicionar Antes</button>
+                <button id="btnAdicionarDepois">Adicionar Depois</button>
+            </div>
+            <div id="caixaRemoverCurso" class="caixaFuncionalidades">
+                <button id="bntRemoverCurso">Remover selecionado</button>
+            </div>
+            <div id="caixaCursoSelecionado" class="caixaFuncionalidades">
+                <button id="bntCursoSelecionado">Curso selecionado</button>
+            </div>
+        </div>
+        <div id="caixaCursos" class="caixa">
+            <!-- OS cursos seram adicinados dinamicamente -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
